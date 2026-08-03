@@ -75,7 +75,7 @@
             for (const champ of CHAMPS_MISSION) {
                 if (!mission[champ]) {
                     console.error(
-                        "🎒 Champ manquant :",
+                        "🎒 Champ FUUUU manquant :",
                         champ
                     );
                     return false;
@@ -91,7 +91,7 @@
                 return false;
             }
             if (!resultat.url) {
-                console.warn("🎒 URL prout prout absente.");
+                console.warn("🎒 URL absente.");
             }
             if (!resultat.rapport) {
                 console.warn("🎒 Rapport absent.");
