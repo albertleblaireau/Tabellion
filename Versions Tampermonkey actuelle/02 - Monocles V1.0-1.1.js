@@ -34,7 +34,7 @@
         },
 
         "Normandie": {
-            regex: /Rapports?\s+de\s+Normandie.*?(\d{1,2}(?:er|re|ère|e)?\s+[^\d\s]+\s+147\d)/i
+            regex: /Rapports?\s+(?:de\s+Normandie|de\s+défenses\s*&\s*douane\s+de\s+la\s+Prévôté\s+Normande).*?(?:du\s+|Le\s+)?(\d{1,2}(?:er|re|ère|e)?\s+[^\d\s]+\s+147\d)/is
         },
 
         "Orléans": {
