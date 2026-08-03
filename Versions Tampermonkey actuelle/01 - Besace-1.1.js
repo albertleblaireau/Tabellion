@@ -233,7 +233,6 @@
             return;
         }
 
-        console.clear();
 
         console.log("========== BESACE ==========");
 
