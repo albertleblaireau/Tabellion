@@ -75,7 +75,7 @@
             for (const champ of CHAMPS_MISSION) {
                 if (!mission[champ]) {
                     console.error(
-                        "🎒 Champ FUUUU manquant :",
+                        "🎒 Champ manquant :",
                         champ
                     );
                     return false;
@@ -128,7 +128,7 @@
     fenetre.style.display = "none";
     fenetre.innerHTML = `
         <h3 style="margin-top:0;text-align:center;">
-            🎒 BESACE
+            🎒 BESACE DU RÔDEUR
         </h3>
         <div style="margin-bottom:8px;">
             Ordre de mission
