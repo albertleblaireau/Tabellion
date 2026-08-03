@@ -11,9 +11,9 @@
 (function () {
     "use strict";
 
-    // if (window.Besace && window.Besace.__initialized) {
-    //     return;
-    // }
+    if (window.Besace && window.Besace.__initialized) {
+        return;
+    }
 
     //////////////////////////////////////////////////////
     // CHAMPS OBLIGATOIRES
@@ -198,7 +198,7 @@
 
     fenetre.innerHTML = `
         <h3 style="margin-top:0;text-align:center;">
-            🎒 BESACE DU RÔDEUR Max
+            🎒 BESACE
         </h3>
 
         <div style="margin-bottom:8px;">
@@ -261,6 +261,6 @@
     //////////////////////////////////////////////////////
 
     window.Besace = Besace;
-    //window.Besace.__initialized = true;
+    window.Besace.__initialized = true;
 
 })();
