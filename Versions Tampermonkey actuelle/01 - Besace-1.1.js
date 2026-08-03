@@ -198,7 +198,7 @@
 
     fenetre.innerHTML = `
         <h3 style="margin-top:0;text-align:center;">
-            🎒 BESACE DU RÔDEUR M
+            🎒 BESACE DU RÔDEUR Max
         </h3>
 
         <div style="margin-bottom:8px;">
