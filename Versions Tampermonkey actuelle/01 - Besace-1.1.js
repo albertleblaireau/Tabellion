@@ -11,6 +11,10 @@
 (function () {
     "use strict";
 
+    if (window.Besace && window.Besace.__initialized) {
+        return;
+    }
+
     //////////////////////////////////////////////////////
     // CHAMPS OBLIGATOIRES
     //////////////////////////////////////////////////////
@@ -258,5 +262,6 @@
     //////////////////////////////////////////////////////
 
     window.Besace = Besace;
+    window.Besace.__initialized = true;
 
 })();
