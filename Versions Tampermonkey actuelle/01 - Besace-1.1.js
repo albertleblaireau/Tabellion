@@ -261,6 +261,6 @@
     //////////////////////////////////////////////////////
 
     window.Besace = Besace;
-    window.Besace.__initialized = true;
+    //window.Besace.__initialized = true;
 
 })();
