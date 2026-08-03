@@ -91,7 +91,7 @@
                 return false;
             }
             if (!resultat.url) {
-                console.warn("🎒 URL absente.");
+                console.warn("🎒 URL prout prout absente.");
             }
             if (!resultat.rapport) {
                 console.warn("🎒 Rapport absent.");
