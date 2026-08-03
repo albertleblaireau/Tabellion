@@ -11,9 +11,9 @@
 (function () {
     "use strict";
 
-    if (window.Besace && window.Besace.__initialized) {
-        return;
-    }
+    // if (window.Besace && window.Besace.__initialized) {
+    //     return;
+    // }
 
     //////////////////////////////////////////////////////
     // CHAMPS OBLIGATOIRES
