@@ -94,7 +94,7 @@
         },
 
         "Armagnac & Comminges": {
-            regex: /Rapports?\s+de\s+défenses\s*&\s*douane\s+de\s+la\s+Prévôté\s+(?!Normande\b)[^~\n]*?Le\s+(\d{1,2}(?:er|re|ère|e)?\s+[^\d\s]+\s+147\d)/is
+            regex: /Rapports\s+de\s+défenses?\s*&\s*douane\s+de\s+la\s+Prévôté[\s\S]*?Le\s+(\d{1,2}(?:er)?\s+\w+\s+147\d)/i
         },
 
         //////////////////////////////////////////////////////
